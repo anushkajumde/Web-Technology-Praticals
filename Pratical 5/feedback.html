@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Student Feedback Form</title>
+
+    <style>
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f5ff;
+        }
+
+        form {
+            width: 400px;
+            margin: auto;
+            margin-top: 50px;
+            padding: 20px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px gray;
+        }
+
+        input,
+        select,
+        textarea {
+            width: 100%;
+            padding: 8px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        input[type="submit"] {
+            background-color: green;
+            color: white;
+            cursor: pointer;
+        }
+
+        input[type="reset"] {
+            background-color: red;
+            color: white;
+            cursor: pointer;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <form>
+
+        <h2 align="center">Student Feedback Form</h2>
+
+        <label>Name:</label>
+        <input type="text" placeholder="Enter your name">
+
+        <label>Email:</label>
+        <input type="email" placeholder="Enter your email">
+
+        <label>Course:</label>
+
+        <select>
+            <option>BCA</option>
+            <option>MCA</option>
+            <option>B.Tech</option>
+            <option>M.Tech</option>
+        </select>
+
+        <label>Gender:</label>
+
+        <input type="radio" name="gender"> Male
+        <input type="radio" name="gender"> Female
+
+        <br><br>
+
+        <label>Hobbies:</label>
+
+        <input type="checkbox"> Sports
+        <input type="checkbox"> Music
+        <input type="checkbox"> Reading
+
+        <br><br>
+
+        <label>Comments:</label>
+
+        <textarea rows="5" placeholder="Enter your feedback"></textarea>
+
+        <input type="submit" value="Submit">
+
+        <input type="reset" value="Reset">
+
+    </form>
+
+</body>
+
+</html>
